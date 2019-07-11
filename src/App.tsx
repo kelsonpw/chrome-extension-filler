@@ -1,11 +1,11 @@
 /** @jsx jsx */
 
-import React from 'react';
+import * as React from 'react';
 import { css, jsx } from '@emotion/core';
 
 const wrapper = css({
   backgroundColor: 'palevioletred',
-  minHeight: '400px',
+  height: '400px',
   minWidth: '400px',
   padding: 0,
   margin: 0,
