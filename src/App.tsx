@@ -1,26 +1,25 @@
+/** @jsx jsx */
+
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { css, jsx } from '@emotion/core';
+
+const wrapper = css({
+  backgroundColor: 'palevioletred',
+  height: '400px',
+  width: '400px',
+});
+
+const heading = css({
+  fontSize: '40px',
+  color: 'white',
+});
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div css={wrapper}>
+      <h1 css={heading}>SUP SIR</h1>
     </div>
   );
-}
+};
 
 export default App;
