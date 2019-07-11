@@ -5,8 +5,11 @@ import { css, jsx } from '@emotion/core';
 
 const wrapper = css({
   backgroundColor: 'palevioletred',
-  height: '400px',
-  width: '400px',
+  minHeight: '400px',
+  minWidth: '400px',
+  padding: 0,
+  margin: 0,
+  fontFamily: 'Helvetica, Arial, sans-serif',
 });
 
 const heading = css({
